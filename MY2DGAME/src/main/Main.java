@@ -15,6 +15,7 @@ public class Main {
         Gamepanel gamepanel = new Gamepanel();
         window.add(gamepanel);
         window.pack();
+        gamepanel.setup();
         gamepanel.startgamethread();
         window.setVisible(true);
     }
